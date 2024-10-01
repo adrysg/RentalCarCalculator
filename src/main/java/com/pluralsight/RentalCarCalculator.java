@@ -21,7 +21,7 @@ public class RentalCarCalculator {
         boolean needsTollTag = PromptForYesNO("Do you need a Toll Tag?: ");
         boolean needsGPS = PromptForYesNO("Do you need a GPS?: ");
         boolean needsRoadSideAssistance = PromptForYesNO("Would you like Roadside Assistance?: ");
-        short age = PromptForByte("How old are you?: ");
+        byte age = PromptForByte("How old are you?: ");
 
 //Calculating totals
         double basicCarRentalFee = numberOfDays * priceOfCarRentalPerDay;
